@@ -1,0 +1,178 @@
+.mm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -52px;
+}
+
+.best-selling-container {
+  text-align: center;
+  padding: 30px;
+  height: 60vh;
+}
+
+.best-selling-products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+}
+
+.product-card {
+  width: 220px;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+
+}
+
+.cards {
+  padding: 60px 40px;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+  margin-left: -50px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.info-card {
+  flex: 1 1 30%;
+  width: 400px;
+  background: white;
+  border-radius: 5px;
+  padding: 15px;
+  height: 300px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.card-content p {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.shopbtns {
+  background-color: #0abe34;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.shopbtns:hover {
+  background-color: rgb(61, 61, 198);
+  color: black;
+}
+
+.card-images {
+  position: absolute;
+  bottom: 16px;
+  right: 0px;
+  width: 220px;
+  height: 190px;
+  object-fit: contain;
+  border-radius: 10px;
+  opacity: 1;
+  background: transparent;
+}
+
+
+@media (max-width: 768px) {
+  .cards {
+    padding: 35px 2px;
+    margin-left: -15px;
+  }
+
+  .card-container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .info-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding: 16px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-content h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .card-content p {
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #555;
+    padding: 0 8px;
+  }
+
+  .shopbtns {
+    width: 40%;
+    justify-content: center;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .card-images {
+    position: static;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-top: 16px;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+
+  .best-selling-container {
+    padding: 20px 15px;
+    height: auto !important;
+  }
+
+  .best-selling-container h2 {
+    font-size: 22px;
+  }
+
+  .best-selling-products {
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .product-card {
+    width: 100%;
+    max-width: 300px;
+  }
+}
