@@ -61,6 +61,7 @@
 }
 
 @media (max-width: 768px) {
+   
     .trending-products {
         justify-content: center;
         flex-direction: column;
@@ -73,8 +74,8 @@
     }
 
     .trending-card img {
-        height: auto;
-        width: 320px;
+        height: 200px;
+        width: 200px;
         
     }
 
@@ -85,6 +86,6 @@
     .trending-card p,
     .trending-card h3,
     .trending-card .price {
-        font-size: 14px;
+        font-size: 16px;
     }
 }

@@ -103,6 +103,7 @@
   .cards {
     padding: 35px 2px;
     margin-left: -15px;
+    background-color: white;
   }
 
   .card-container {
@@ -110,8 +111,7 @@
     gap: 20px;
     align-items: center;
   }
-
-  .info-card {
+   .info-card {
     flex: 1 1 100%;
     max-width: 100%;
     padding: 16px;
@@ -129,7 +129,7 @@
   }
 
   .card-content h3 {
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 8px;
   }
 
@@ -163,7 +163,8 @@
   }
 
   .best-selling-container h2 {
-    font-size: 22px;
+    font-size: 24px;
+    margin-bottom: -50px;
   }
 
   .best-selling-products {
@@ -174,5 +175,8 @@
   .product-card {
     width: 100%;
     max-width: 300px;
+  }
+  .mm{
+    margin-bottom: -52px;
   }
 }

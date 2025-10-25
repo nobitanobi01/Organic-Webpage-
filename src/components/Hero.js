@@ -20,7 +20,7 @@ function Hero() {
         <img className="leaf-image" src={img1} alt="leaf" />
         <h2>Best Quality Products</h2>
         <h3>Join The Organic <br /> Movement!</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+        <p>Explore our wide range of organic products and enjoy a healthier lifestyle.</p>
         <button className="shopbtn">
           <FaShoppingCart size={18} className="shop" /> Shop Now
         </button>
