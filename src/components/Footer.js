@@ -11,9 +11,15 @@ function Footer() {
       <div className="footer-brand">
         <img src={logo} alt="Organic Store" className="logos" />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio blanditiis,
-          fugit illo magni corrupti sit totam corporis magnam consequatur, ex nihil
-          voluptatum nemo explicabo, inventore harum fugiat maxime atque cum.
+          <strong>Organic Store</strong> is your one-stop destination for
+          100% natural, sustainably sourced organic products. We partner with
+          local farmers and trusted suppliers to deliver fresh, chemical-free
+          groceries right to your doorstep.
+        </p>
+        <p style={{marginTop:"15px"}}>
+          <b>Address:</b> 123 Green Street, Pune, India<br />
+          <b>Email:</b> support@organicstore.com<br />
+          <b>Phone:</b> +91 98765 43210
         </p>
       </div>
 
@@ -41,8 +47,9 @@ function Footer() {
 
       <div className="footer-app">
         <h4>Download Our Mobile App</h4>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab animi pariatur molestiae vero, sit, expedita corrupti\
-           recusandae beatae architecto aliquam obcaecati, vitae iste! Quam vero inventore impedit eveniet sequi ea.</p>
+        <p> Get your favorite organic essentials delivered faster with our
+          mobile app. Track orders, explore new arrivals, and enjoy exclusive
+          app-only discounts.</p>
         <div className="store-badges">
           <img src={Playstore} alt="Google Play" />
           <img src={appStore} alt="App Store" />

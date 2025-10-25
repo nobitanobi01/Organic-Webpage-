@@ -25,7 +25,7 @@ function Header() {
 
 
       <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
-        <i class="fa-solid fa-toggle-on"></i>
+        <i className="fa-solid fa-toggle-on"></i>
       </div>
 
       {menuOpen && (

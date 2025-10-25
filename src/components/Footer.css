@@ -92,6 +92,15 @@
   .footer-links-group,
   .footer-app {
     width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .footer-brand img {
+    margin-left: 80px;
+  }
+
+  .footer-brand p {
+    margin-bottom: 15px;
   }
 
   .footer-links-group {
