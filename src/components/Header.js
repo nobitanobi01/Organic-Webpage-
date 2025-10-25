@@ -17,10 +17,10 @@ function Header() {
       </div>
 
       <ul className="nav right desktop-nav">
-        <li>About</li>
-        <li>Contact</li>
-        <li>👤</li>
-        <li>🛒</li>
+        <li><a href='#footer'>About</a></li>
+        <li><a href='#footer'>Contact</a></li>
+        <li><i className="fa-solid fa-user" style={{ fontSize: "16px" }}></i></li>
+        <li><i className="fa-solid fa-cart-shopping" ></i></li>
       </ul>
 
 

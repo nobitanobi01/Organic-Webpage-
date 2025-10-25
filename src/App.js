@@ -20,7 +20,7 @@ function App() {
       <Ship2 />
       <div id="trending"><TrendingProduct /></div>
       <div id="review"><Reviews /></div>
-      <Footer/>
+      <div id="footer"><Footer /></div>
     </div>
   );
 }
