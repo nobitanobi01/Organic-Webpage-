@@ -25,7 +25,7 @@ function Header() {
 
 
       <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
-        ☰
+        <i class="fa-solid fa-toggle-on"></i>
       </div>
 
       {menuOpen && (
@@ -34,10 +34,10 @@ function Header() {
             <li><a href='#product'>Everything</a></li>
             <li><a href='#trending'>Groceries</a></li>
             <li><a href='review'>Juice</a></li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>👤</li>
-            <li>🛒</li>
+            <li><a href='#footer'>About</a></li>
+            <li><a href='#footer'>Contact</a></li>
+            <li><i className="fa-solid fa-user" ></i></li>
+            <li><i className="fa-solid fa-cart-shopping" ></i></li>
           </ul>
         </div>
       )}
