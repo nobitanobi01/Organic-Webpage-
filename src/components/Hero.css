@@ -58,7 +58,7 @@
   align-items: center;
   gap: 10px;
   background-color: #1cbf25;
-  color: black;
+  color: white;
   padding: 10px 16px;
   border: none;
   font-size: 16px;
@@ -66,8 +66,9 @@
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 .shopbtn:hover {
-  background-color: rgb(47, 47, 223);
+  background-color: orange;
   color: white;
 }
 
@@ -126,5 +127,5 @@
     justify-content: center;
     margin: 0 auto;
   }
-  
+
 }

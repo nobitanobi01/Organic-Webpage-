@@ -68,7 +68,7 @@
 }
 
 .shopbtns {
-  background-color: #0abe34;
+  background-color: #1cbf25;
   color: white;
   border: none;
   padding: 8px 14px;
@@ -82,8 +82,8 @@
 }
 
 .shopbtns:hover {
-  background-color: rgb(61, 61, 198);
-  color: black;
+    background-color: orange;
+  color: white;
 }
 
 .card-images {
