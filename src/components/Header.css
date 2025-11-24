@@ -75,12 +75,16 @@
   .hamburger {
     display: block;
   }
+
+  .hamburger i{
+    font-size: 30px;
+  }
   .header{
-    height: 45px;
+    height: 65px;
   }
   .logo{
-    height: 40px;
-    margin-left: -20px;
+    height: 45px;
+    margin-left: -15px;
   }
   .mobile-menu{
     width: 200px;

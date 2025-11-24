@@ -151,7 +151,7 @@
     position: static;
     width: 100%;
     max-width: 200px;
-    height: auto;
+    height: 135px;
     margin-top: 16px;
     object-fit: contain;
     border-radius: 10px;
@@ -176,6 +176,7 @@
     width: 100%;
     max-width: 300px;
   }
+
   .mm{
     margin-bottom: -52px;
   }

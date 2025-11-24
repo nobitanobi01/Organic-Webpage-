@@ -74,8 +74,8 @@ const ProductSection = () => {
                 src={product.image}
                 alt={product.name}
                 style={{
-                  width: "100%",
-                  height: "180px",
+                  width: "200px",
+                  height: "175px",
                   objectFit: "cover",
                   borderRadius: "8px",
                 }}
